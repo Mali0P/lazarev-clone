@@ -1,0 +1,164 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+nav{
+    padding: 1.2vw 0 ;
+    padding-left: 6.2vw;
+    padding-right: 5.2vw;
+    position: fixed;
+    z-index: 9999;
+    color: white;
+    height: 4.6vw;
+    font-weight: 700;
+  background-color: #111111;
+  align-items: first baseline;
+}
+.homeDivUl{
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+  
+}
+
+nav .logo h1{
+    font-size: 1.6vw;
+font-weight: bolder;
+letter-spacing: 0.5px;
+
+
+}
+
+
+nav ul li{
+    display: flex;
+    text-wrap: nowrap;
+    margin-right: 1.3vw;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+    font-size: 0.91vw;
+    
+}
+nav .hoverGreen:hover{
+    cursor: pointer;
+ 
+    color: #0da24e;
+    transition: 0.3s ease-in-out;
+}
+.navHome{
+
+ display: flex;
+ position: relative;
+ flex-direction: column;
+height: fit-content;
+overflow-y: hidden;
+
+ color: white;
+}
+.navHome p{
+
+    display: flex;
+    align-items: center;
+    z-index: 22;
+    cursor: pointer;
+}
+.navHome:hover{
+    overflow-y:visible;
+}
+
+.navHome:hover > .hideDiv{
+    top: -30%;
+    padding-top: 1.8vw;
+  
+    color: black;
+width: 120%;
+
+    border-radius: 1.2vw;
+        position: absolute;
+        opacity: 1;
+        font-size: 0.91vw;
+        transition: 0.5s ease-in-out;
+        background-color: #ffffff;
+        animation: navBarAnimation 0.4s ease-in-out forwards;
+}
+.navHome:hover > .hideDiv > li{
+    transform: scaleY(1) translateY(0vw);
+    transition: 0.2s ease-in-out 0.3s;
+}
+@keyframes navBarAnimation {
+    0%{
+        height: 0vw;
+        opacity: 0;
+    }
+    100%{
+        height: 17vw;
+        opacity: 1;
+    }
+    
+}
+
+.navHome:hover > .pp {
+    color: #a3a3a3;
+    
+    z-index: 22;
+}
+.iconFont{
+    margin-left: 0.5vw;
+    font-size: 0.7vw;
+  
+
+}
+.hideDiv{
+
+top: -30%;
+padding-top: 1.8vw;
+
+color: black;
+
+
+border-radius: 1.2vw;
+    position: absolute;
+}
+
+.hideDiv li{
+ margin-bottom: 0.6vw;
+
+    width: 100%;
+    text-align: center;
+    transform: scaleY(0) translateY(0.4vw);
+}
+.hideDiv li:hover{
+    color: #0da24e;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+nav .greenBtn button{
+    position: relative;
+}
+nav .greenBtn{
+    text-align: center;
+display: flex;
+justify-content: center;
+    width: 10vw;
+    font-size: 1vw;
+    padding: 0.5vw 2vw;
+border-radius: 40px;
+    background-color: #0da24e;  
+    transition: 0.3s ease-in-out;
+}
+
+.borderDiv{
+    top:100%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 0.1vw;
+    transform: translateY(1vw);
+}

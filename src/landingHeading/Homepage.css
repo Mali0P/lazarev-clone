@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: neue-haas-grotesk-display, sans-serif;
+}
+body{
+    overflow-x:hidden;;
+}
+.homeDiv{
+padding-top: 11.8vw;
+padding-bottom: 3.6vw;
+height: fit-content;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ justify-content: flex-start;
+ 
+  
+}
+.headerFirst{
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-transform: none;
+   margin-bottom: 1vw;
+    font-size: 1.2vw;
+}
+
+.headerFirst span{
+    color: #666;
+}
+.mainHeader h2{
+    font-family: neue-haas-grotesk-display, sans-serif;
+line-height: 1.5vw;
+text-align: center;
+line-height: 1;
+
+
+
+}
+.firstHeader, .secondHeader{
+   position: relative;
+    height: 13.5vh;
+    display: inline-block;
+    padding-bottom: 1vw;
+    height: fit-content;
+    overflow: hidden;
+
+}
+.firstHeader h2 span, .secondHeader h2 span{
+    display: inline-block;
+position: relative;
+    color: rgb(255, 255, 255);
+    transform: scaleX(0.7) scaleY(0.2) translateY(90vh);
+}
+
+.bottomHeading p{
+    text-align: center;
+    letter-spacing: .01em;
+    font-size: 1.2vw;
+    display: inline-block;
+  
+    opacity: 0;
+ transform: translateY(6vh);
+}
+.bottomHeading span{
+    color: #0cc05a;
+    background-color: #0da34e1a;
+    border: 1px solid #0da34e80;
+    border-radius: 50vw;
+    margin-top: 0.1rem;
+   font-size: 1.2vw;
+    padding: .3rem 0.5rem .2rem;
+    display: inline-block;
+}
+.homeVideo{
+    display: flex;
+justify-content: center;
+    width: 100vw;
+position: relative;
+
+
+z-index: 110;
+}
+.homeVideo video{
+ 
+    width: 87.5vw;
+border-radius: 30px;
+overflow: hidden;
+opacity: 1;
+}
+
+.circle{
+align-items: center;
+    justify-content: space-around;
+ position: absolute;
+left: -5vw;
+top: -5vw;
+overflow: hidden;
+    display: flex;
+    width: 0vw;
+    height: 0vw;
+    
+    border-radius: 100%;
+    background-color: #0da34e;
+    z-index: 99;
+    
+}
+.divCircle{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   
+    z-index: 9;
+overflow: hidden;
+}
+.circle p{
+    position: relative;
+    top: 15%;
+    left: 10%;
+    font-weight: 600;
+    font-size: 1vw;
+
+}
+.circle svg{
+    position: relative;
+    top: -30%;
+    right: 10%;
+    width: 3vw;
+    transform: rotate(-45deg);
+}
+.transparent{
+   
+    z-index: 999;
+    position: absolute;
+    background-color: rgba(246, 0, 0, 0);
+    width: 88vw;
+    height: 100%;
+    overflow: hidden;
+cursor: pointer;
+  
+    border-radius: 30px;
+}

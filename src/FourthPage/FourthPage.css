@@ -1,0 +1,227 @@
+.fourthPageDes span{
+    padding-right: 10vw;
+    height: 4vw;
+    padding-top: 1vw;
+   font-size: 1vw;
+   padding-bottom: 5vw;
+display: inline-block;
+float: left;
+}
+.fourthPageDes p{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 2.5vw;
+    line-height: 1.20833;
+   letter-spacing: 0.001em;
+  text-align:start;
+    
+}
+.firstSticky{
+    position: relative;
+    width: 100%;
+    height: 43%;
+    padding: 0 5.6vw;
+    padding-top: 3vw;
+   gap: 8%;
+    margin: auto;
+}
+.leftData{
+    flex-basis: 21.7%;
+   height: 80vw;
+    border-top: 2px solid #ffffff1d;
+ 
+}
+.data{
+    line-height: 1.33333;
+    
+    top: 20%;
+    position: sticky;
+}
+.leftData h2{
+    margin-top: 1vw;
+    font-size: 3.2vw;
+font-weight: 600;
+
+
+
+}
+.leftData p{
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    
+    
+}
+.leftButtonP p{
+    margin-top: 0;
+}
+.leftData .leftButtonP{
+
+    margin-top: 2vw;
+    width: 100%;
+    background-color: #4f5bff;
+    padding: 1vw 2vw;
+    height: 4vw;
+    border-radius: 30px;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightData{
+    flex-basis: 70%;
+    border-top: 2px solid #ffffff1d;
+   position: relative;
+   
+   
+}
+.firstVideoPlayer{
+    position: relative;
+    height: 44vw;
+ 
+ 
+  
+}
+.topContent{
+
+   height: 10vw;
+   padding-top: 1.4vw;
+   border-top: 2px solid #ffffff1d;
+   padding-top: 2vw;
+   margin-bottom: 1vw;
+   
+}
+.leftHeading h2{
+    font-size: 1.7vw;
+    text-wrap: nowrap;
+    font-weight: 600;
+    margin-right: 11.5vw;
+}
+.rightInfo{
+    font-size: 0.98vw;
+    line-height: 1.20833;
+    letter-spacing: 0.001em;
+    font-weight: 500;
+}
+.topRightButtons{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: flex-start;
+}
+.topRightButtons button{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    font-size: 0.8vw;
+    border: 1px solid rgba(255, 255, 255, 0.247);
+    padding: 0.6vw 0.8vw;
+    border-radius: 40px;
+    text-wrap: nowrap;
+}
+.rightArrow{
+    width: 7.8vw;
+ text-align: center;
+
+ justify-content: center;
+ display: flex;
+
+}
+.rightArrow svg{
+    padding-left: 0vw;
+    width: 3vh;
+    display:block;
+    height: 3vh;
+}
+
+
+.firstVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+position: relative;
+    height: 30vw;
+    
+   
+ 
+}
+.firstVideo img{
+    object-fit:contain ;
+   
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 20px;
+}
+.firstVideo video{
+    position: absolute;
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+object-fit: contain;
+
+z-index: 22;
+}
+.transparentDivContainer{
+    z-index: 9999;
+}
+.divCircle2{
+    width: 0;
+    height: 0;
+    border-radius: 100%;
+    position: absolute;
+   background: #4f5bff;
+    z-index: 9;
+overflow: hidden;
+pointer-events: none;
+z-index: 999;
+left: 0;top: 0;
+}
+.circle2 p{
+    position: relative;
+    transform: translateY(280%) translateX(17%);
+
+    
+    font-weight: 600;
+    font-size: 1vw;
+
+}
+.circle2 svg{
+    position: relative;
+    
+    right: -60%;
+    width: 2vw;
+    transform: rotate(-45deg);
+}
+.transparentDivContainer{
+z-index: 99;
+    height: 40vw;
+  
+}
+
+
+
+.belowButtonP p{
+    margin-top: 0;
+}
+.belowButtonP span{
+    font-size: 0.9vw;
+}
+@media only screen and (max-width: 1140px)  and (min-width: 1040px) {
+    .videoDiv{
+        height: 211vw;
+      
+    }
+    
+}
+@media only screen and (max-width: 1040px)  and (min-width: 800px) {
+    .videoDiv{
+        height: 221vw;
+       
+      
+    }
+    .firstVideoPlayer{
+        height: 47vw;
+    }
+    
+}

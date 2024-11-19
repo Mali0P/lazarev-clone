@@ -1,0 +1,56 @@
+.gridComponent{
+    background-color: #1f1f1f;
+    border-radius: 1.3rem;
+    padding: 2vw 2.3vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.topNumber{
+    color: #666;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    line-height: 1.3;
+    letter-spacing: .01em;
+    font-weight: 500;
+    font-size: 1vw;
+    flex-basis: 50%;
+}
+.bottomContent{
+  flex-basis: 47%;
+justify-content: flex-end;
+
+  display: flex;
+  flex-direction: column;
+   
+}
+.bottomContent h1{
+  
+    letter-spacing: .01em;
+    margin-bottom: 0.7rem;
+    font-size: 3.9vw;
+    font-weight: 600;
+    line-height: 1;
+    font-family: neue-haas-grotesk-display, sans-serif;
+}
+.bottomContent p{
+    color: #a3a3a3;
+    font-weight: 530;
+}
+.awarImage{
+    width: 100%;
+    height: 100%;
+}
+.awarImage{
+    position: absolute;
+top: -25%;
+left: 40%;
+    width: 55%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   height: auto;
+}
+
+.secondgridComponent h1{
+    font-size: 2.7vw;
+}

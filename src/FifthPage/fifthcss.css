@@ -1,0 +1,27 @@
+.headingDiv h2{
+    line-height: 1;
+}
+.rightPara{
+    line-height: 1.25;
+    font-weight: 500;
+}
+.collection{
+    overflow:visible ;
+}
+.firstP span{
+
+    transform: translate3d(0px,0px,0px) rotateX(0deg) ;
+}
+.secondP,.firstP {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+
+}
+.secondP span{
+opacity: 0;
+ transform:translate3d(0px,100%,0px) rotateX(75deg);
+}
